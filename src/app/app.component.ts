@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quote } from './quote';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Quotes';
-}
+  // quotes = [
+  //    new Quote('Dont let your failure define you'),
+  //    new Quote('Am doing my thing though'),
+  // ];
+
+  constructor() {}
+  }

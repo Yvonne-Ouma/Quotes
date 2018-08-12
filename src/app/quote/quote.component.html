@@ -7,7 +7,8 @@
 <ul>
   <div *ngFor='let quote of quotes;let i = index'>
   <li id='{{i}}' appStrikethrough> {{quote.name}}  due on {{quote.completeDate|date|uppercase}} </li>
-  <button (click)='displayDetails(i)'>Display Details</button>
+  <button (click)='displayDetails(i)'>More Details</button>
+  <img src="http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_465/public/Facebook%20dislike.jpg?itok=A6w_s2wn" alt="" height=60px width=60px>
   <app-quote-details *ngIf="quote.showDescription" [quote]='quote'(isComplete)='completeQuote($event,i)'></app-quote-details>
 </div>
 </ul>

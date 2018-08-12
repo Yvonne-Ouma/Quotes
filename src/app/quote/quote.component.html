@@ -1,14 +1,15 @@
 <h1>Quotes</h1>
 <div class="container">
   <div class="row">
-    <app-goal-form></app-goal-form>
+    <app-quote-form></app-quote-form>
   </div>
 </div>
 <ul>
   <div *ngFor='let quote of quotes;let i = index'>
   <li id='{{i}}' appStrikethrough> {{quote.name}}  due on {{quote.completeDate|date|uppercase}} </li>
   <button (click)='displayDetails(i)'>More Details</button>
-  <!-- <img src="http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_465/public/Facebook%20dislike.jpg?itok=A6w_s2wn" alt="" height=60px width=60px> -->
+
   <app-quote-details *ngIf="quote.showDescription" [quote]='quote'(isComplete)='deleteQuote($event,i)'></app-quote-details>
+  <img src="http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_465/public/Facebook%20dislike.jpg?itok=A6w_s2wn" alt="" height=60px width=60px>
 </div>
 </ul>

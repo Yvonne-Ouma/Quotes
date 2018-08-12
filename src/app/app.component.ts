@@ -7,10 +7,5 @@ import { Quote } from './quote';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // quotes = [
-  //    new Quote('Dont let your failure define you'),
-  //    new Quote('Am doing my thing though'),
-  // ];
-
   constructor() {}
   }

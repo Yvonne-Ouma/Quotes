@@ -8,8 +8,10 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-     new Quote('Dont let your failure define you', 'thats the me', new Date (2018, 5, 6)),
-     new Quote('Am doing my thing though', 'stannd out for myself', new Date (2018, 6, 8)),
+     new Quote('Andre Gide', 'Life is what happens when you’re busy making other plans', 'Diana', new Date (2018, 5, 6)),
+     new Quote('Seneca', 'Not how long, but how well you have lived is the main thing', 'Rosemary', new Date (2018, 8, 2)),
+     new Quote('Marcus ', 'Do not take life too seriously. You will never get out of it alive.', 'Kennedy', new Date (2017, 1, 12)),
+     new Quote('Gabor', 'I tell you, in this world being a little crazy helps to keep you sane.', 'Veronicah', new Date (2018, 3, 11)),
   ];
 
   displayDetails(index) {

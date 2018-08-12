@@ -8,8 +8,8 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-     new Quote('Dont let your failure define you', 'thats the me'),
-     new Quote('Am doing my thing though', 'stannd out for myself'),
+     new Quote('Dont let your failure define you', 'thats the me', new Date (2018, 5, 6)),
+     new Quote('Am doing my thing though', 'stannd out for myself', new Date (2018, 6, 8)),
   ];
 
   displayDetails(index) {

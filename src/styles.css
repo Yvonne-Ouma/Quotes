@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-div{
+body{
   color : black;
+  background-image: url("https://wallpaperbrowse.com/media/images/00-best-backgrounds-and-wallpaper-apps-for-android.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

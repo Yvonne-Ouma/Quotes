@@ -26,6 +26,13 @@ if (toDelete) {
   this.quotes.splice(index, 1);
   }
 }
+
+}
+addNewQuote(quote) {
+  const quoteLength = this.quotes.length;
+  quote.id = quoteLength + 1;
+  quote.completeDate = new Date(quote.completeDate);
+  this.quotes.push(quote);
 }
   constructor() { }
 

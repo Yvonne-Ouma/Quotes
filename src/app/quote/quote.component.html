@@ -1,7 +1,7 @@
 <h1>Quotes</h1>
 <div class="container">
   <div class="row">
-    <app-quote-form></app-quote-form>
+    <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
   </div>
 </div>
 <ul>
@@ -10,6 +10,6 @@
   <button (click)='displayDetails(i)'>More Details</button>
 
   <app-quote-details *ngIf="quote.showDescription" [quote]='quote'(isComplete)='deleteQuote($event,i)'></app-quote-details>
-  <img src="http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_465/public/Facebook%20dislike.jpg?itok=A6w_s2wn" alt="" height=60px width=60px>
+  
 </div>
 </ul>

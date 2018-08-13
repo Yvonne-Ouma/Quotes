@@ -1,20 +1,27 @@
 <body>
-  <h1>Quotes</h1>
+  <h1 style="color:white; font-family: 'Fredericka the Great', cursive; font-size:70px;">Quotes</h1>
   <div class="container">
     <div class="row">
-      <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
-    </div>
-  </div>
+<div style="color:white;" class="col-md-6">
+  <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
+</div>
+<div class="col-md-6">
   <ul>
     <div *ngFor='let quote of quotes;let i = index'class="q">
     <li id='{{i}}' appStrikethrough> {{quote.name}}  due on {{quote.completeDate|date|uppercase}} </li>
-    <button (click)='displayDetails(i)' class="me">More Details</button>
-    <button type="button" (click) = 'upVote()' name="button">upVote {{Quote.upVote}}</button>
-    <button type="button" name="button" (click) = 'downVote()'>downVote {{Quote.downVote}}</button>
+    <button (click)='displayDetails(i)' class="me">More</button>
 
-    <app-quote-details *ngIf="quote.showDescription" [quote]='quote'(isComplete)='deleteQuote($event,i)'></app-quote-details>
+
+    <app-quote-details style="color:white;" *ngIf="quote.showDescription" [quote]='quote'(isComplete)='deleteQuote($event,i)'></app-quote-details>
 
   </div>
   </ul>
+
+</div>
+
+
+
+    </div>
+  </div>
 
 </body>

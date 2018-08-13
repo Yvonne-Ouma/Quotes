@@ -1,5 +1,7 @@
-<div class="desc">
+<div  class="desc">
   <p>{{ quote.description}}</p>
   <p>This quote was published {{quote.completeDate|dateCount}} days ago</p>
+ <h4><button class="btn btn-success" type="button" (click) = 'upVote()' name="button"><i class="fa fa-thumbs-up"></i> {{Quote.upVote}}</button>
+  <button class="btn btn-danger" type="button" name="button" (click) = 'downVote()'><i class="fa fa-thumbs-down"></i>{{Quote.downVote}}</button></h4>
   <button (click) = 'quoteDelete(true)'class="btn btn-primary">Delete Quote</button>
 </div>

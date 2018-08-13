@@ -20,13 +20,10 @@ This requires you to have a command line.like the Terminal where you can code in
 This application does not work in Internet explorer.
 
 ### Technologies Used
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0.
 
 ## Support and contact details
 If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com or 0706244461.
-# Quotes
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0
 
 ## Development server
 

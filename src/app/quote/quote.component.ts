@@ -8,14 +8,20 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-     new Quote('Andre Gide', 'Life is what happens when you’re busy making other plans', 'Diana', new Date (2018, 5, 6)),
-     new Quote('Seneca', 'Not how long, but how well you have lived is the main thing', 'Rosemary', new Date (2018, 8, 2)),
-     new Quote('Marcus ', 'Do not take life too seriously. You will never get out of it alive.', 'Kennedy', new Date (2017, 1, 12)),
-     new Quote('Gabor', 'I tell you, in this world being a little crazy helps to keep you sane.', 'Veronicah', new Date (2018, 3, 11)),
+     new Quote('Andre Gide', 'Life is what happens when you’re busy making other plans', 'Diana', new Date (2018, 5, 6), 0, 0),
+     new Quote('Seneca', 'Not how long, but how well you have lived is the main thing', 'Rosemary', new Date (2018, 8, 2), 0, 0),
+     new Quote('Marcus ', 'Do not take life too seriously. You will never get out of it alive.', 'Kennedy', new Date (2017, 1, 12), 0, 0),
+     new Quote('Gabor', 'In this world being a little crazy helps to keep you sane.', 'Veronicah', new Date (2018, 3, 11), 0, 0),
   ];
 
   displayDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
+  upVote() {
+    this.quotes.upVote ++;
+  }
+  downVote() {
+    this.quotes.downVote --;
   }
   deleteQuote(isComplete, index) {
 if (isComplete) {

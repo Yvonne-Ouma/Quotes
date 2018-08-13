@@ -1,6 +1,32 @@
+
 # Quotes
 
+## Author
+Yvonne Ouma
+
+## Description
+My application Quotes enables a user to create a quote.
+
+### Prerequisites
+web browser
+git
+Installation Requirements
+Go to Goggle Chrome or Google Chromium
+In the search button,search github
+log in if you have an account if not create an account
+You can clone my project on the clone button this is the link to my application
+This requires you to have a command line.like the Terminal where you can code in different commands.
+### Bugs
+This application does not work in Internet explorer.
+
+### Technologies Used
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
+
+## Support and contact details
+If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com or 0706244461.
+# Quotes
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0
 
 ## Development server
 

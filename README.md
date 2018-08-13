@@ -14,7 +14,7 @@ Installation Requirements
 Go to Goggle Chrome or Google Chromium
 In the search button,search github
 log in if you have an account if not create an account
-You can clone my project on the clone button this is the link to my application
+You can clone my project on the clone button this is the link to my application https://yvonne-ouma.github.io/Quotes/
 This requires you to have a command line.like the Terminal where you can code in different commands.
 ### Bugs
 This application does not work in Internet explorer.

@@ -17,12 +17,6 @@ export class QuoteComponent implements OnInit {
   displayDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
-  upVote() {
-    this.quotes.upVote ++;
-  }
-  downVote() {
-    this.quotes.downVote --;
-  }
   deleteQuote(isComplete, index) {
 if (isComplete) {
   const toDelete = confirm(`Do you want to delete this Quote!!! ${this.quotes[index].name}`);

@@ -16,10 +16,10 @@ export class QuoteDetailsComponent implements OnInit {
       this.isComplete.emit(complete);
     }
     upVote() {
-      this.quote.upVote ++;
+      this.quote.upVote += 1;
     }
     downVote() {
-      this.quote.downVote --;
+      this.quote.downVote += 1;
     }
     constructor() { }
 

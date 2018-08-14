@@ -5,6 +5,7 @@
 <div style="color:white;" class="col-md-6">
   <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
 </div>
+
 <div class="col-md-6">
   <ul>
     <div *ngFor='let quote of quotes;let i = index'class="q">
@@ -18,6 +19,7 @@
   </ul>
 
 </div>
+
 
 
 

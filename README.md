@@ -5,30 +5,32 @@
 Yvonne Ouma
 
 ## Description
-My application Quotes enables a user to create a quote.
+My application Quotes enables a user to create a quote.You can create your favorite quote, the author's name and your name to show that you are the one who has written it, then you can submit to add the quote in the list of quotes.In addition to that the date at which the quote was created will be displayed.
+This a link to my application ``` https://yvonne-ouma.github.io/Quotes/ ```
 
 ### Prerequisites
 web browser
 git
-Installation Requirements
-Go to Goggle Chrome or Google Chromium
-In the search button,search github
-log in if you have an account if not create an account
-You can clone my project on the clone button this is the link to my application https://yvonne-ouma.github.io/Quotes/
-This requires you to have a command line.like the Terminal where you can code in different commands.
-### Bugs
-This application does not work in Internet explorer.
+
+### Setup Instruction
+To start using this project use the following commands:
+
+* git clone ``` https://github.com/Yvonne-Ouma/Quotes.git ```
+
+* cd Quotes
+
+* you can use any editor of your choise i.e Atom, Visual Studio.
+
+This requires you to have a command line.like the Terminal where you can code in the above commands.
+No bugs that i know of.
 
 ### Technologies Used
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0.
-### MIT License
-Copyright <2018> <Yvonne Ouma>
+* HTML
+* CSS
+* Bootstrap
+* javaScript
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Support and contact details
 If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com or 0706244461.
 

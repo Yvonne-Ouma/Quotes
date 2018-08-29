@@ -2,7 +2,7 @@
   <h1 style="color:white; font-family: 'Fredericka the Great', cursive; font-size:70px;">Quotes</h1>
   <div class="container">
     <div class="row">
-<div style="color:white;" class="col-md-6">
+<div style="color:rgb(27, 26, 26);" class="col-md-6">
   <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
 </div>
 
@@ -13,7 +13,7 @@
     <button (click)='displayDetails(i)' class="me">More</button>
 
 
-    <app-quote-details style="color:white;" *ngIf="quote.showDescription" [quote]='quote'(isComplete)='deleteQuote($event,i)'></app-quote-details>
+    <app-quote-details style="color:rgb(24, 23, 23);" *ngIf="quote.showDescription" [quote]='quote'(isComplete)='deleteQuote($event,i)'></app-quote-details>
 
   </div>
   </ul>

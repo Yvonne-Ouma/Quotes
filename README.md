@@ -32,7 +32,7 @@ No bugs that i know of.
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.0.
 
 ## Support and contact details
-If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com or 0706244461.
+If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com.
 
 ## Development server
 
